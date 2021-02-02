@@ -1,0 +1,64 @@
+.filter {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  height: 395.45px;
+  display: block;
+  text-align: start;
+  padding: 30px;
+}
+
+.form-wrapper-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.select {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+  width: 255px;
+  height: 80px;
+  text-align: start;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.form-label-items {
+  margin-bottom: 8px;
+  height: 22px;
+  width: 100%;
+  text-align: start;
+}
+
+.select-form-items {
+  text-align: start;
+  padding: 11px 20px 13px 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Filter.css.map */

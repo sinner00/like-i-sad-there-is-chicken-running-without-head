@@ -1,0 +1,50 @@
+.categories {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+  align-items: start;
+  padding: 0 15px;
+  max-width: 1200px;
+  height: 931px;
+}
+
+.categories-h2 {
+  width: 100%;
+  text-align: start;
+  height: 48px;
+  margin: 0;
+  font-size: 40px;
+}
+
+.categories-hr {
+  width: 70px;
+  margin: 25px 0 0 0;
+  border-top: 2px solid green;
+  text-align: start;
+}
+
+.categories-chose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  width: 100%;
+  margin: 30px 0 0 0;
+  height: 820px;
+}
+
+.chose {
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0 15px;
+}
+
+/*# sourceMappingURL=Categories.css.map */

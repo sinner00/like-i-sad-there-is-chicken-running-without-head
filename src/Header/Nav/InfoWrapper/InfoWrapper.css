@@ -1,0 +1,14 @@
+.info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 48px;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 0 75px 0 75px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=InfoWrapper.css.map */

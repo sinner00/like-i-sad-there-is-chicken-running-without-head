@@ -1,0 +1,8 @@
+@import "../state";
+
+.recent-properties {
+  @include flex;
+  max-width: 1200px;
+  height: 1500.94px;
+  background-color: #f8f9fa;
+}

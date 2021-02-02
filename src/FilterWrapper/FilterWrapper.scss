@@ -1,0 +1,9 @@
+@import "../state";
+
+.filter-wrapper {
+  max-width: 1200px;
+  @include flex;
+  padding-top: 60px;
+  height: 344.45px;
+  align-items: flex-end;
+}

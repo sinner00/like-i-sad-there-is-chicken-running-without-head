@@ -1,0 +1,10 @@
+@import "../../../../state.scss";
+
+.modern-estate {
+  @include flex;
+  width: 210px;
+  height: 62px;
+  padding-bottom: 20px;
+  align-items: start;
+
+}

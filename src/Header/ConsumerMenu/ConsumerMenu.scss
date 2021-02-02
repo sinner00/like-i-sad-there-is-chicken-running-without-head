@@ -1,0 +1,10 @@
+@import "../../state";
+
+
+
+.consumer-menu {
+  width: 100%;
+  @include flex;
+  justify-content: start;
+  align-items: start;
+}

@@ -1,0 +1,14 @@
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 48px;
+  border: 1px solid black;
+  padding: 11px 0 9px 0;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Info.css.map */

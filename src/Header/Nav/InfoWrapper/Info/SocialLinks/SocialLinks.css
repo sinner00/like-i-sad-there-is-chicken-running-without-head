@@ -1,0 +1,11 @@
+.social-links {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=SocialLinks.css.map */

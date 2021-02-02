@@ -1,0 +1,6 @@
+@import "../../../state";
+
+.add-to-basket {
+  @include d-block;
+  width: 240px;
+}

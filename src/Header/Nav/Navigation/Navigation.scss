@@ -1,0 +1,11 @@
+@import "../../../state.scss";
+
+
+.navigation {
+  width: 100%;
+  @include flex;
+  justify-content: space-between;
+  padding: 40px 76px 30px 76px;
+  height: 126px;
+  align-items: start;
+}

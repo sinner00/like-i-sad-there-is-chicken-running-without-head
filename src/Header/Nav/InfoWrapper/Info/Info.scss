@@ -1,0 +1,10 @@
+@import "../../../../state.scss";
+
+
+.info {
+width: 100%;
+  @include info-d-block;
+   padding: 11px 0 9px 0;
+  justify-content: space-between;
+}
+

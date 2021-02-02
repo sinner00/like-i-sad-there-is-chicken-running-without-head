@@ -1,0 +1,56 @@
+$color:grey;
+$background-color:black;
+$height:60px;
+
+
+//global
+@mixin d-block () {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+
+}
+
+//consumer menu
+@mixin flex () {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+
+}
+
+//info
+@mixin info-d-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 48px;
+  border: 1px solid black;
+}
+
+//info-wrapper-margin
+@mixin info-m {
+margin: 0 75px  0  75px;
+}
+
+
+
+@mixin info-d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  border: 1px solid black;
+}
+

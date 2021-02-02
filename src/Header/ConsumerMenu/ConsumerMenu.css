@@ -1,0 +1,14 @@
+.consumer-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  justify-content: start;
+  align-items: start;
+}
+
+/*# sourceMappingURL=ConsumerMenu.css.map */

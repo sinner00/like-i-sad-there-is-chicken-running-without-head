@@ -1,0 +1,14 @@
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  width: 188.75px;
+  height: 43px;
+  align-items: start;
+}
+
+/*# sourceMappingURL=Submit.css.map */

@@ -1,0 +1,11 @@
+@import "../../state";
+
+
+
+.nav {
+  width: 100%;
+  @include flex;
+  justify-content: center;
+  align-items: center;
+  height: 174px;
+}

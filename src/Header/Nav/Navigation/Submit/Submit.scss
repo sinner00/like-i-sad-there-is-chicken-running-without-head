@@ -1,0 +1,9 @@
+@import "../../../../state.scss";
+
+
+.submit {
+@include flex;
+  width: 188.75px;
+  height: 43px;
+  align-items: start;
+}

@@ -1,0 +1,12 @@
+.real-house {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  width: 458.734px;
+}
+
+/*# sourceMappingURL=RealHouse.css.map */

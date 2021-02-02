@@ -1,0 +1,77 @@
+.recent-categories {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+  align-items: start;
+  width: 100%;
+  height: 1320.94px;
+}
+
+.categories-h2 {
+  width: 100%;
+  text-align: start;
+  height: 48px;
+  margin: 0;
+  font-size: 40px;
+}
+
+.categories-hr {
+  width: 70px;
+  margin: 25px 0 0 0;
+  border-top: 2px solid green;
+  text-align: start;
+}
+
+.houses-chose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  margin: 55px 0 0 0;
+  height: 1100px;
+}
+
+.chose {
+  border: 1px solid black;
+  padding: 0 15px;
+}
+
+.category-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  align-items: center;
+  margin-top: 30px;
+  width: 219.39px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+.houses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  height: 50%;
+}
+
+.recent-properties {
+  align-items: start;
+  padding: 90px 0;
+}
+
+/*# sourceMappingURL=RecentCategories.css.map */

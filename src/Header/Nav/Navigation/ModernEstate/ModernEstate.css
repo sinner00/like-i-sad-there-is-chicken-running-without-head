@@ -1,0 +1,15 @@
+.modern-estate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  width: 210px;
+  height: 62px;
+  padding-bottom: 20px;
+  align-items: start;
+}
+
+/*# sourceMappingURL=ModernEstate.css.map */

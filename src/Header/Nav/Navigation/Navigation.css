@@ -1,0 +1,16 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 40px 76px 30px 76px;
+  height: 126px;
+  align-items: start;
+}
+
+/*# sourceMappingURL=Navigation.css.map */

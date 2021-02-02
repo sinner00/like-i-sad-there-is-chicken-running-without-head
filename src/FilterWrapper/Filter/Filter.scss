@@ -1,0 +1,39 @@
+@import "../../state.scss";
+
+.filter {
+  @include d-block;
+  width: 1170px;
+  @include flex;
+  height: 395.45px;
+  display: block;
+  text-align: start;
+  padding: 30px;
+}
+.form-wrapper-items {
+  @include flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+.select {
+  @include d-block;
+  width: 255px;
+  height: 80px;
+  text-align: start;
+  margin-bottom: 20px;
+  padding: 0;
+
+}
+
+.form-label-items {
+  margin-bottom: 8px;
+  height: 22px;
+  width: 100%;
+  text-align: start;
+}
+
+.select-form-items{
+text-align: start;
+  padding: 11px 20px 13px 20px;
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+@import "../../../state.scss";
+
+
+.info-wrapper{
+  @include info-d-block;
+  justify-content: space-between;
+  @include info-m;
+  width: 100%;
+}

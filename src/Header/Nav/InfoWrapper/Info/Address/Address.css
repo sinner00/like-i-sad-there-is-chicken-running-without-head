@@ -1,0 +1,11 @@
+.address {
+  width: 1090px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=Address.css.map */

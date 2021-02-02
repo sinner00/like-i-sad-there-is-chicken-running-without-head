@@ -1,0 +1,57 @@
+@import "../../state";
+
+
+.recent-categories{
+  @include d-block;
+  align-items: start;
+  width: 100%;
+  height: 1320.94px;
+
+}
+
+.categories-h2 {
+  width: 100%;
+  text-align: start;
+  height: 48px;
+  margin: 0;
+  font-size: 40px;
+}
+.categories-hr{
+  width: 70px;
+  margin:25px 0 0 0 ;
+  border-top:2px solid green;
+  text-align: start;
+
+}
+.houses-chose {
+  @include flex;
+  margin: 55px 0 0 0;
+  height: 1100px;
+}
+.chose {
+
+  border: 1px solid black;
+  padding: 0 15px;
+
+}
+
+.category-button{
+  @include flex;
+  align-items: center;
+  margin-top: 30px;
+  width: 219.39px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+
+.houses {
+  @include flex;
+  height: 50%;
+}
+.recent-properties {
+  align-items: start;
+  padding: 90px 0;
+}
+
+
