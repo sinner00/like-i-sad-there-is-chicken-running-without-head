@@ -5,6 +5,10 @@ import Carousel from "./Carousel/Carousel";
 import FilterWrapper from "./FilterWrapper/FilterWrapper";
 import Categories from "./WrapperCategories/WrapperCategories";
 import RecentProperties from "./RecentProperties/RecentProperties";
+import OurAdvantages from "./OurAdvantages/OurAdvantages";
+import EstateAgents from "./EstateAgents/EstateAgents";
+import Testimonials from "./Testimonials/Testimonials";
+import Footer from "./Footer/Footer";
 
 
 
@@ -16,6 +20,10 @@ function App() {
      <FilterWrapper/>
      <Categories/>
      <RecentProperties/>
+     <OurAdvantages/>
+     <EstateAgents/>
+     <Testimonials/>
+     <Footer/>
     </div>
   );
 }

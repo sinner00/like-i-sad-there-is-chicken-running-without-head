@@ -1,6 +1,6 @@
 $color:grey;
 $background-color:black;
-$height:60px;
+$height:40px;
 
 
 //global
@@ -52,5 +52,15 @@ margin: 0 75px  0  75px;
   text-align: center;
   height: 100%;
   border: 1px solid black;
+  
 }
 
+@mixin h2-hr {
+  display: block;
+  justify-content:start;
+  font-size: 40px;
+  width: 70px;
+  margin-top: 25px;
+  border-top: 2px solid green;
+
+}
