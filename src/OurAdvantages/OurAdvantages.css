@@ -5,12 +5,12 @@
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
   height: 568px;
   padding: 90px 0;
   justify-content: center;
   align-items: start;
   display: block;
+  background-color: #243238;
 }
 
 .articles-h2 {
@@ -24,6 +24,7 @@
   margin-top: 0;
   width: 100%;
   text-align: start;
+  color: #cccccc;
 }
 
 .articles-hr {
@@ -43,12 +44,12 @@
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   max-width: 1200px;
   margin-top: 55px;
   display: flex;
   height: 250px;
+  justify-content: start;
 }
 
 .our-advantages-wrapper {
@@ -57,22 +58,36 @@
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   max-width: 1200px;
   height: 100%;
 }
 
 .articles {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
-  width: 25%;
   height: 100%;
+  width: 25%;
+  text-align: start;
 }
 
-/*# sourceMappingURL=EstateAgents.css.map */
+.bi-geo-alt, .bi-camera-fill, .bi-lock-fill, .bi-cash {
+  font-size: 70px;
+  color: orangered;
+}
+
+.various-locations {
+  font-size: 20px;
+  color: #b0bec5;
+}
+
+.introduce {
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=OurAdvantages.css.map */

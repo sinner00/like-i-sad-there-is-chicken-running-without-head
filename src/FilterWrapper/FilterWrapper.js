@@ -2,10 +2,10 @@ import React from "react";
 import "./FilterWrapper.scss"
 import Filter from "./Filter/Filter";
 
-function FilterWrapper() {
+function FilterWrapper({set,open}) {
     return (
         <div className="filter-wrapper container">
-            <Filter/>
+            <Filter set={set} open={open}/>
         </div>
     );
 }

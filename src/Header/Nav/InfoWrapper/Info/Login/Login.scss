@@ -6,5 +6,27 @@
 .login{
   width: 145px;
  @include info-d-flex;
+}
+.bi-door-open {
+  @include flex;
+ padding: 5px;
+  font-size: 20px;
+  height: 100%;
+  color: $color;
+}
+.login-registration {
+  color: lightgreen ;
+   &:hover {
+     color: green;
+     text-decoration: none;
+   }
+}
+.link-login-registration {
+  color: lightgreen;
+  transition: ease-in-out 500ms;
 
+  &:hover {
+    color: green;
+    text-decoration: none;
+  }
 }

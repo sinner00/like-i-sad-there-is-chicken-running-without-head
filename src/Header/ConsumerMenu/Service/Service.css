@@ -1,12 +1,67 @@
 .service {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   width: 812.5px;
+  justify-content: space-between;
+}
+
+.service-menu {
+  height: 100%;
+  background-color: #243238;
+  color: lightgreen;
+  border: none;
+  outline: none;
+}
+.service-menu:hover {
+  color: lightgreen;
+  border: none;
+  outline: none;
+  background-color: #243238;
+}
+
+.bi-heart {
+  color: red;
+  font-size: 20px;
+}
+.bi-heart:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+
+.button-service-hide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  background-color: #243238;
+  border: none;
+  width: 50px;
+}
+
+.bi-chevron-up {
+  color: grey;
+}
+.bi-chevron-up:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+
+.service-wrapper-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  height: 100%;
 }
 
 /*# sourceMappingURL=Service.css.map */

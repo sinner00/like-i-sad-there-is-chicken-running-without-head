@@ -2,7 +2,7 @@
 
 .footer-wrapper{
   @include flex;
-  height:492px;
+ height: 100%;
   justify-content: center;
   align-items: start;
   display: block;
@@ -16,12 +16,18 @@
   max-width: 1200px;
   margin-top: 55px;
   display: flex;
-  height: 250px;
+  height: 100%;
+  align-items: start;
+
 }
 
 .footer {
-  @include flex;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #243238;
+
 }
 
 .footer-social-media{
@@ -34,9 +40,9 @@
 }
 
 .policy {
-width: 322px;
   @include flex;
   height: 22px;
+  align-items: start;
 }
 
 
@@ -44,4 +50,96 @@ width: 322px;
   width: 172.984px;
   @include flex;
   height: 29px;
+}
+.footer-item {
+  display: block;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+.footer-phone-number {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  text-align: start;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer-phone-link {
+  padding-left: 5px;
+  text-decoration: none;
+  list-style: none;
+  color: orange;
+  transition: 300ms ease-in-out;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+.phone-footer {
+  color: gray;
+}
+.sign1, .sign2{
+color: gray;
+  font-size: 12px;
+  font-weight: 400;
+}
+.modern-estate-footer {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 15px;
+  color: white;
+}
+.bi-chevron-compact-right {
+  font-size: 10px;
+}
+.links-footer{
+
+  color: orange ;
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+.links-footer-items {
+  margin-bottom: 10px;
+}
+.december {
+color: gray;
+}
+.enter {
+  color: gray;
+}
+.footer-input {
+  width: 200px;
+  height: 40px;
+ text-align: center;
+  font-size: 15px;
+}
+.button-wrapper {
+  margin-top: 10px;
+  .subscribe{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background-color: limegreen ;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 200ms ease-in-out;
+    &:hover{
+      background-color: green;
+    }
+  }
+}
+.policy-item {
+font-size: 12px;
+  color: #b0bec5;
+}
+.footer-blogRoll {
+  color: white;
 }

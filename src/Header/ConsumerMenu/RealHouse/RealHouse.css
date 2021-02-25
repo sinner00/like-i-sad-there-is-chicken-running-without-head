@@ -5,8 +5,52 @@
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
   width: 458.734px;
+  background-color: #243238;
+}
+
+.real-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  padding: 20px;
+  color: #90caf9;
+  font-weight: 700;
+  width: 100%;
+  white-space: nowrap;
+}
+.real-logo:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+
+.real-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  width: 40px;
+  padding-bottom: 3px;
+  color: grey;
+}
+.real-logo-icon:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+
+.bi-chevron-left {
+  padding-bottom: 3px;
+}
+
+.bi-box-arrow-up-right {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=RealHouse.css.map */

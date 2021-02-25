@@ -1,6 +1,32 @@
 @import "../../../state";
 
 .add-to-basket {
-  @include d-block;
+  @include flex;
   width: 240px;
+  height: 100%;
+  background-color: #243238;
+ padding: 7px 0;
+}
+.add-to-basket-button {
+  @include flex;
+  width: 100%;
+  color: whitesmoke;
+  border: none;
+  padding:  0  20px;
+  border-radius: 7px;
+  background-color: red;
+  height: 100%;
+  &:hover {
+    background-color: darkred;
+  }
+
+}
+.bi-cart2 {
+font-size: 20px;
+  margin:0 10px 6px 0 ;
+}
+.add-to-basket-item {
+font-size: 14px;
+  white-space: nowrap;
+  width: 100%;
 }

@@ -5,7 +5,63 @@
   align-items: center;
   text-align: center;
   height: 100%;
-  border: 1px solid black;
+}
+
+.address-list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  text-decoration: none;
+  list-style: none;
+  justify-content: start;
+  color: grey;
+  padding: 0;
+}
+
+.address-list-items:not(:nth-child(1)) {
+  margin-left: 55px;
+}
+
+.bi {
+  font-size: 20px;
+}
+
+.address-list-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: ease-in-out 500ms;
+}
+.address-list-items:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.bi-telephone {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.bi-envelope-open {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.bi-geo-alt-fill {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.span-address {
+  width: 100%;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=Address.css.map */

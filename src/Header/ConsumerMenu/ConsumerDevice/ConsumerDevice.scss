@@ -1,6 +1,26 @@
 @import "../../../state";
 
 .consumer-device {
-@include d-block;
+@include flex;
   width: 353.766px;
+}
+.consumer-device-items {
+  @include flex;
+  background-color: #243238;
+  border: none;
+  color: #b0bec5;
+  font-size: 14px;
+  @include sl-td-none;
+
+}
+.s {
+  @include flex;
+  padding-left: 10px;
+}
+.m{
+  font-size: 20px;
+
+}
+.consumer-menu {
+  width: 100%;
 }

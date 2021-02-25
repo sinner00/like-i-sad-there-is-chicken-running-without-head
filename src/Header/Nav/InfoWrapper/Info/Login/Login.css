@@ -5,7 +5,36 @@
   align-items: center;
   text-align: center;
   height: 100%;
-  border: 1px solid black;
+}
+
+.bi-door-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  padding: 5px;
+  font-size: 20px;
+  height: 100%;
+  color: grey;
+}
+
+.login-registration {
+  color: lightgreen;
+}
+.login-registration:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.link-login-registration {
+  color: lightgreen;
+  transition: ease-in-out 500ms;
+}
+.link-login-registration:hover {
+  color: green;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=Login.css.map */

@@ -2,6 +2,41 @@
 
 
 .service {
-  @include d-block;
+  @include flex;
   width: 812.500px;
+  justify-content: space-between;
+}
+.service-menu {
+  height: 100%;
+  background-color: #243238;
+  color: lightgreen;
+  border: none;
+  outline: none;
+  &:hover {
+    color: lightgreen;
+    border: none;
+    outline: none;
+    background-color: #243238;
+  }
+}
+.bi-heart{
+  color: red;
+  font-size: 20px;
+  @include sl-td-none;
+}
+
+.button-service-hide {
+  @include flex;
+  background-color: #243238;
+  border: none;
+  width: 50px;
+}
+.bi-chevron-up {
+  color: $color;
+  @include sl-td-none;
+}
+.service-wrapper-items {
+  @include flex;
+  height: 100%;
+
 }

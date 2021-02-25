@@ -8,6 +8,9 @@
   display: block;
   text-align: start;
   padding: 30px;
+  position: absolute;
+  z-index: 5;
+  background-color: white;
 }
 .form-wrapper-items {
   @include flex;
@@ -35,5 +38,168 @@
 .select-form-items{
 text-align: start;
   padding: 11px 20px 13px 20px;
+  width: 100%;}
+
+.wrapper-search {
+  @include flex;
   width: 100%;
+  height: 100%;
+}
+.second-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+
+  height: 100%;
+  width: 100%;
+}
+.price {
+  display: block;
+  justify-content: start;
+  text-align: justify;
+}
+.input-second-row {
+  padding-left: 0;
+  height: 50px;
+  input {
+    height: 50px
+
+  }
+
+}
+.label {
+  text-align: start;
+  width: min-content;
+}
+.wrapper-selects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 0;
+}
+.select-second-row {
+  height: 50px;
+  width: 100%;
+}
+.input-second-row{
+  height: 100%;
+  width: 100%;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+.search {
+  height: 50px;
+  width: 15%;
+  align-self: flex-end;
+  border-radius: 7px;
+  outline: none;
+  background-color:lightgreen ;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  transition: 300ms ease-in-out;
+  border: none;
+
+  &:hover {
+    background-color: darkgreen;
+  }
+
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+  width: 30%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: green;
+  margin-top: -4px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+.input-range {
+  padding: 40px 40px 0 0 ;
+}
+.wrapper-plus {
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-plus {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  transition: 200ms ease-in-out;
+  &:hover{
+      cursor: pointer;
+     color: orangered;
+  }
+}
+
+.vertical-plus {
+  width: 15px;
+  height: 3px;
+  background-color: white;
+  transform: rotate(100grad);
+
+
+}
+.horizontal-plus{
+width: 15px;
+  height: 3px;
+background-color: white;
+  position: absolute;
+}
+.wrapper-plus {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.checkbox-wrapper{
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+}
+.checkbox{
+  margin-left:  120px;
+  margin-top: 50px;
 }

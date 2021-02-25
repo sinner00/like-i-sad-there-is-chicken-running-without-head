@@ -1,12 +1,47 @@
 .consumer-device {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   width: 353.766px;
+}
+
+.consumer-device-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  background-color: #243238;
+  border: none;
+  color: #b0bec5;
+  font-size: 14px;
+}
+.consumer-device-items:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #007bff;
+}
+
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.m {
+  font-size: 20px;
+}
+
+.consumer-menu {
+  width: 100%;
 }
 
 /*# sourceMappingURL=ConsumerDevice.css.map */

@@ -4,7 +4,6 @@
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   align-items: start;
   width: 100%;
@@ -33,9 +32,11 @@
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
   margin: 55px 0 0 0;
   height: 1100px;
+}
+.houses-chose :not(:nth-child(3)) .houses {
+  padding-bottom: 15px;
 }
 
 .chose {
@@ -50,7 +51,6 @@
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
   align-items: center;
   margin-top: 30px;
   width: 219.39px;
@@ -59,19 +59,96 @@
 }
 
 .houses {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
   height: 60px;
-  border: 1px solid black;
   height: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
 }
 
 .recent-properties {
   align-items: start;
   padding: 90px 0;
+}
+
+.properties-image {
+  width: 100%;
+  height: 250px;
+  padding-bottom: 15px;
+}
+
+.properties-name {
+  width: 100%;
+  font-size: 30px;
+  color: green;
+  transition: 300ms ease-in-out;
+}
+.properties-name:hover {
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.properties-cost {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.advanteges1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.bi-house, .bi-droplet-half {
+  display: flex;
+  margin-right: 50px;
+  align-items: baseline;
+  color: orangered;
+}
+
+.bi-layout-sidebar-reverse, .bi-truck {
+  display: flex;
+  margin-right: 50px;
+  align-items: baseline;
+  color: orangered;
+}
+
+.quantity {
+  padding-left: 15px;
+  font-size: 15px;
+  color: gray;
+}
+
+.advanteges2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.one, .two, .three {
+  padding-bottom: 15px;
+}
+
+.four, .five, .six {
+  padding-top: 15px;
+}
+
+.category-button {
+  background-color: lawngreen;
+  border: none;
+  outline: none;
+}
+.category-button:hover {
+  background-color: green;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=RecentCategories.css.map */

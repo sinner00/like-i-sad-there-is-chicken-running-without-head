@@ -1,11 +1,32 @@
 .social-links {
-  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
   text-align: center;
+  height: 60px;
+  justify-content: start;
+  width: 180px;
+  text-align: start;
   height: 100%;
-  border: 1px solid black;
+}
+
+.link-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: grey;
+  transition: 2s ease-in-out;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.link-item:hover {
+  color: #243238;
+}
+
+.link-facebook {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=SocialLinks.css.map */

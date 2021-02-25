@@ -4,4 +4,31 @@
 .real-house {
 @include flex;
   width: 458.734px;
+  background-color: #243238;
+}
+.real-logo {
+  @include flex;
+  padding: 20px;
+  color: #90caf9;
+  @include sl-td-none;
+  font-weight: 700;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.real-logo-icon {
+  @include flex;
+  width: 40px;
+  @include sl-td-none;
+  padding-bottom: 3px;
+  color: $color;
+
+}
+
+.bi-chevron-left {
+  padding-bottom: 3px;
+
+}
+.bi-box-arrow-up-right {
+  font-size: 13px;
 }

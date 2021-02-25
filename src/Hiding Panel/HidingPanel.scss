@@ -1,0 +1,32 @@
+@import "../state";
+
+.hiding-panel{
+  max-width: 1200px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+
+}
+.checkbox-wrapper-items {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+.input-wrapper, .input-wrapper2{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.hiding-input:not(:nth-child(1)){
+
+margin-left: 50px;
+
+}
+.hiding-input {
+margin-bottom: 7px;
+}

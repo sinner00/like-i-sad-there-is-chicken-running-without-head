@@ -1,0 +1,25 @@
+.bi-arrow-left {
+  font-size: 40px;
+  cursor: pointer;
+  color: red;
+}
+
+.lala {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.bi-arrow-right {
+  font-size: 35px;
+  color: red;
+}
+
+.d-block {
+  height: 628px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Image.css.map */

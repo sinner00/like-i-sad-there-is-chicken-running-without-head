@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./App.scss"
 import Header from "./Header/Header";
 import Carousel from "./Carousel/Carousel";
@@ -9,15 +9,19 @@ import OurAdvantages from "./OurAdvantages/OurAdvantages";
 import EstateAgents from "./EstateAgents/EstateAgents";
 import Testimonials from "./Testimonials/Testimonials";
 import Footer from "./Footer/Footer";
+import HidingPanel from "./Hiding Panel/HidingPanel";
 
 
 
 function App() {
+    const [open, setOpen] = useState(false);
+    const set = ()=>setOpen(!open);
   return (
     <div className="App container-fluid">
      <Header/>
      <Carousel/>
-     <FilterWrapper/>
+     <FilterWrapper set={set} open={open}/>
+     <HidingPanel open={open}/>
      <Categories/>
      <RecentProperties/>
      <OurAdvantages/>

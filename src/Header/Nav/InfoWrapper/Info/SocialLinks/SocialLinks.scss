@@ -4,7 +4,32 @@
 
 
 .social-links{
+  @include flex;
+  justify-content: start;
   width: 180px;
- @include info-d-flex;
+  text-align: start;
+  height: 100%;
 
+}
+.link-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: $color;
+  transition: 2s ease-in-out;
+  font-size: 20px;
+  margin-left: 10px;
+
+
+
+
+  &:hover {
+    color: #243238;
+  }
+}
+
+
+.link-facebook {
+  margin-left: 0;
 }

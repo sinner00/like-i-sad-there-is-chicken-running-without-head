@@ -1,12 +1,44 @@
 .add-to-basket {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
   height: 60px;
   width: 240px;
+  height: 100%;
+  background-color: #243238;
+  padding: 7px 0;
+}
+
+.add-to-basket-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  color: whitesmoke;
+  border: none;
+  padding: 0 20px;
+  border-radius: 7px;
+  background-color: red;
+  height: 100%;
+}
+.add-to-basket-button:hover {
+  background-color: darkred;
+}
+
+.bi-cart2 {
+  font-size: 20px;
+  margin: 0 10px 6px 0;
+}
+
+.add-to-basket-item {
+  font-size: 14px;
+  white-space: nowrap;
+  width: 100%;
 }
 
 /*# sourceMappingURL=AddToBasket.css.map */
